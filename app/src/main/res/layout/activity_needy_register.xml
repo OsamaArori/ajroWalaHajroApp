@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".needyRegister">
+
+    <TextView
+        android:id="@+id/txtwelcome"
+        android:text="اهلاً بك"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/fontt"
+        android:layout_gravity="center" />
+    <TextView
+        android:id="@+id/txtsignin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/fontt"
+        android:text="يرجى تعبئة البيانات التالية لانشاء حسابك الجديد"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/waterbill"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/roundedcorner"
+            android:editable="false"
+            android:fontFamily="@font/fontt"
+            android:hint="ادخل صورة فاتورة المياه"
+            android:maxLines="1"
+            android:padding="5dp"
+            android:selectAllOnFocus="true" />
+        <ImageButton
+            android:id="@+id/imagewaterbill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignTop="@+id/waterbill"
+            android:layout_alignBottom="@+id/waterbill"
+            android:layout_alignLeft="@+id/waterbill"
+
+            app:srcCompat="@drawable/needs" />
+
+
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/salary"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="الدخل المادي"
+        android:fontFamily="@font/fontt"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:inputType="number"
+        android:selectAllOnFocus="true" />
+
+    <EditText
+        android:id="@+id/nfm"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/roundedcorner"
+        android:layout_marginTop="5dp"
+        android:inputType="number"
+        android:fontFamily="@font/fontt"
+        android:hint="عدد افراد الاسره"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:selectAllOnFocus="true" />
+
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/roundedcornerbutton"
+        android:enabled="true"
+        android:fontFamily="@font/fontt"
+        android:text="انشاء حساب" />
+
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:orientation="vertical"
+    tools:context=".donations">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="90dp"
+            android:paddingRight="10dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@drawable/logoawh"
+            tools:src="@drawable/logoawh" />
+    <Spinner
+        android:id="@+id/spinnerDonations"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.5"
+        android:background="@drawable/roundedcorner"
+        android:entries="@array/spinnerItems"
+        android:fontFamily="@font/fontt"
+        android:layout_marginBottom="10dp"
+        />
+    </LinearLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/listdonations"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</LinearLayout>

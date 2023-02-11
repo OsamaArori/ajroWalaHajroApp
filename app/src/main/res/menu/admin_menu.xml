@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/admin_donors"
+        android:icon="@drawable/profile"
+        android:title="المتبرعين"/>
+    <item
+        android:id="@+id/admin_donaitions"
+        android:icon="@drawable/needs"
+        android:title="التبرعات"/>
+    <item
+        android:id="@+id/admin_needy"
+        android:icon="@drawable/donations"
+        android:title="المحتاجين"/>
+    <item
+        android:id="@+id/admin_needs"
+        android:icon="@drawable/notifications"
+        android:title="الاحتياجات"/>
+</menu>

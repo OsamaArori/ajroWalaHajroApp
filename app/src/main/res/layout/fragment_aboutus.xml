@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".aboutus">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logoawh" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/fontt"
+        android:text="تم عمل  هذا التطبيق لمشروع تخرج بإشراف الدكتور محمد رسمي و تم إنجازه بسواعد الطلبة التالية أسمائهم:
+يزن محمود ذياب عبدالجليل 0785831219
+أسامة امجد شيخه
+0781020771
+رمزي خالد يوسف أبوليل
+0777488060"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+
+</LinearLayout>

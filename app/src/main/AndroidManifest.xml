@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ajrowalahajro">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ajrowalahajro">
+        <activity
+            android:name=".phoneNumber"
+            android:exported="false" />
+        <activity
+            android:name=".VerifyPhoneNo"
+            android:exported="false" />
+        <activity
+            android:name=".restPass"
+            android:exported="false" />
+        <activity
+            android:name=".editProfile"
+            android:exported="false" />
+        <activity
+            android:name=".showNeed"
+            android:exported="false" />
+        <activity
+            android:name=".openImage"
+            android:exported="false" />
+        <activity
+            android:name=".adminUsersProfile"
+            android:exported="false" />
+        <activity
+            android:name=".adminSohwDonation"
+            android:exported="false" />
+        <activity
+            android:name=".adminShowNeed"
+            android:exported="false" />
+        <activity
+            android:name=".adminMain"
+            android:exported="false" />
+        <activity
+            android:name=".showNotf"
+            android:exported="false" />
+        <activity
+            android:name=".needyRegister"
+            android:exported="false" />
+        <activity
+            android:name=".newdonate"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".donate"
+            android:exported="true" />
+        <activity
+            android:name=".MainPage"
+            android:exported="true" />
+        <activity
+            android:name=".donorRegister"
+            android:exported="true" />
+        <activity
+            android:name=".donorLogin"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

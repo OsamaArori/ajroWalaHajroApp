@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".donate">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="rtl"
+        android:gravity="right"
+        android:text="اضف صوره"
+        android:textSize="20sp"
+        android:fontFamily="@font/fontt"
+        android:textColor="@color/black"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="right">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            tools:srcCompat="@drawable/needs" />
+
+        <ImageButton
+            android:id="@+id/newpic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/plus"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textDirection="rtl"
+        android:gravity="right"
+        android:text="اشرح عن التبرع"
+        android:textSize="20sp"
+        android:fontFamily="@font/fontt"
+        android:textColor="@color/black"/>
+    <EditText
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:fontFamily="@font/fontt"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:background="@drawable/textrectangle"/>
+
+    <Button
+        android:id="@+id/donate"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/roundedcornerbutton"
+        android:enabled="true"
+        android:text="تبرع"
+        android:textSize="17sp"
+        android:fontFamily="@font/fontt"
+        android:textColor="@color/white" />
+
+</LinearLayout>

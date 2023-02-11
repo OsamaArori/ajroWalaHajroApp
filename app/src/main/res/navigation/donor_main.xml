@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/donor_main.xml"
+    app:startDestination="@id/needs">
+    <fragment
+        android:id="@+id/needs"
+        android:name="com.example.ajrowalahajro.needs"
+        android:label="fragment_needs"
+        tools:layout="@layout/fragment_needs" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.example.ajrowalahajro.profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/notifications"
+        android:name="com.example.ajrowalahajro.notifications"
+        android:label="fragment_notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/donations"
+        android:name="com.example.ajrowalahajro.donations"
+        android:label="fragment_donations"
+        tools:layout="@layout/fragment_donations" />
+    <fragment
+        android:id="@+id/aboutus"
+        android:name="com.example.ajrowalahajro.aboutus"
+        android:label="fragment_aboutus"
+        tools:layout="@layout/fragment_aboutus" />
+    <fragment
+        android:id="@+id/history"
+        android:name="com.example.ajrowalahajro.history"
+        android:label="fragment_history"
+        tools:layout="@layout/fragment_history" />
+    <fragment
+        android:id="@+id/signout"
+        android:name="com.example.ajrowalahajro.signout"
+        android:label="fragment_signout"
+        tools:layout="@layout/fragment_signout" />
+</navigation>

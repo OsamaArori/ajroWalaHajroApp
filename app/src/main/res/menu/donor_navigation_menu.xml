@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/profile"
+        android:title="الصفحة الشخصية"/>
+    <item
+        android:id="@+id/needs"
+        android:icon="@drawable/needs"
+        android:title="الاحتياجات"/>
+    <item
+        android:id="@+id/donations"
+        android:icon="@drawable/donations"
+        android:title="التبرعات"/>
+    <item
+        android:id="@+id/notifications"
+        android:icon="@drawable/notifications"
+        android:title="الاشعارات"/>
+    <item
+        android:id="@+id/aboutus"
+        android:icon="@drawable/aboutus"
+        android:iconTint="@color/green"
+        android:title="من نحن"/>
+    <item
+        android:id="@+id/signout"
+        android:icon="@drawable/logout"
+        android:iconTint="@color/green"
+        android:title="تسجيل خروج"/>
+</menu>

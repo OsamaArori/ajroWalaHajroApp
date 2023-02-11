@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    tools:context=".adminUsersProfile">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:id="@+id/adminUsersProfile"
+        ></FrameLayout>
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            app:shapeAppearanceOverlay="@style/roundImageView"
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            tools:srcCompat="@tools:sample/avatars" />
+
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/roundedcorner"
+        android:fontFamily="@font/fontt"
+        android:editable="false"
+        android:hint="ID"
+        android:layout_marginTop="5dp"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="الاسم الرباعي"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/fontt"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:editable="false"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="البريد الالكتروني"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/fontt"
+        android:editable="false"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="رقم الهاتف"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/fontt"
+        android:editable="false"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:ems="10" />
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="العنوان"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/fontt"
+        android:editable="false"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="كلمة السر"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/fontt"
+        android:editable="false"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/salary"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="الدخل المادي"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/fontt"
+        android:editable="false"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/nfm"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="عدد افراد الاسره"
+        android:layout_marginTop="5dp"
+        android:fontFamily="@font/fontt"
+        android:editable="false"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:ems="10" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/waterbillview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/roundedcornerbutton"
+            android:fontFamily="@font/fontt"
+            android:text="اثبات السكن" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/roundedcornerbutton"
+            android:fontFamily="@font/fontt"
+            android:text="حذف" />
+
+        <Button
+            android:id="@+id/history"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/roundedcornerbutton"
+            android:fontFamily="@font/fontt"
+            android:text="السجل" />
+    </LinearLayout>
+
+</LinearLayout>

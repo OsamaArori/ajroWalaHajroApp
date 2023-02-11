@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spinnerItems">
+        <item>اثاث</item>
+        <item>ادوات طبيه</item>
+        <item>مواد غذائية</item>
+        <item>ملابس</item>
+        <item>ادوات كهربائية</item>
+    </string-array>
+</resources>

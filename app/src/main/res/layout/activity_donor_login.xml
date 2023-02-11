@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:text="مرحباً بك !"
+        android:fontFamily="@font/fontt"
+        android:textAlignment="center"
+        android:layout_marginBottom="15dp"
+        android:padding="15dp"
+        android:textSize="40sp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="سجل دخولك"
+        android:fontFamily="@font/fontt"
+        android:textAlignment="center"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/roundedcorner"
+        android:layout_marginTop="50dp"
+        android:hint="البريد الالكتروني او رقم الهاتف"
+        android:inputType="textEmailAddress"
+        android:fontFamily="@font/fontt"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:selectAllOnFocus="true" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/roundedcorner"
+        android:hint="كلمة السر"
+        android:imeOptions="actionDone"
+        android:inputType="textPassword"
+        android:selectAllOnFocus="true"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:fontFamily="@font/fontt"
+        />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/roundedcornerbutton"
+        android:enabled="true"
+        android:fontFamily="@font/fontt"
+        android:text="دخول" />
+
+    <Button
+        android:id="@+id/donorRegister"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/roundedcornerbutton"
+        android:enabled="true"
+        android:text="تسجيل جديد"
+        android:fontFamily="@font/fontt"
+        android:textSize="17sp"
+        android:textColor="@color/white" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgetpass"
+        android:layout_gravity="right"
+        android:text="نسيت كلمة السر"
+        android:fontFamily="@font/fontt"
+        android:textColor="@color/green"
+        android:padding="15dp"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>

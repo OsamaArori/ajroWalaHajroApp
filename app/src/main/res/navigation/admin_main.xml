@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/admin_main"
+    app:startDestination="@id/admin_donors">
+
+    <fragment
+        android:id="@+id/admin_donaitions"
+        android:name="com.example.ajrowalahajro.admin_donaitions"
+        android:label="fragment_admin_donaitions"
+        tools:layout="@layout/fragment_admin_donaitions" />
+    <fragment
+        android:id="@+id/admin_donors"
+        android:name="com.example.ajrowalahajro.admin_donors"
+        android:label="fragment_admin_donors"
+        tools:layout="@layout/fragment_admin_donors" />
+    <fragment
+        android:id="@+id/admin_needs"
+        android:name="com.example.ajrowalahajro.admin_needs"
+        android:label="fragment_admin_needs"
+        tools:layout="@layout/fragment_admin_needs" />
+    <fragment
+        android:id="@+id/admin_needy"
+        android:name="com.example.ajrowalahajro.admin_needy"
+        android:label="fragment_admin_needy"
+        tools:layout="@layout/fragment_admin_needy" />
+</navigation>

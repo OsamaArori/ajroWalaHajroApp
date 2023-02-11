@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "658187092155",
+    "firebase_url": "https://ajrowalahajro-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ajrowalahajro",
+    "storage_bucket": "ajrowalahajro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658187092155:android:d22acfbbc5f470eb87699e",
+        "android_client_info": {
+          "package_name": "com.example.ajrowalahajro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658187092155-ecatq9bceqeu8kvsoth9tmq9qtibkfrv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ajrowalahajro",
+            "certificate_hash": "67f37ef1e2b849c248eaaa03b35e945b282ac3e1"
+          }
+        },
+        {
+          "client_id": "658187092155-0sbov0bnugafam10edp2f9kmnfhuqpn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADk_S4rwgTaiwVICC_4_vI_bhYQTzSLvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658187092155-0sbov0bnugafam10edp2f9kmnfhuqpn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

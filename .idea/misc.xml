@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/drawable/bottomnav.xml" value="0.2203125" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/drawable/itemback.xml" value="0.2203125" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/drawable/roundedcorner.xml" value="0.2203125" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/drawable/roundedcornerbutton.xml" value="0.2203125" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/drawable/shadow_drawable.xml" value="0.2203125" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/drawable/spinneritems.xml" value="0.2203125" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_about_us.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_admin_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_admin_show_need.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_admin_sohw_donation.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_admin_users_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_categories.xml" value="0.1" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_donate.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_donor_login.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_donor_main_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_donor_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_edit_profile.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_needy_register.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_needylogin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_newdonate.xml" value="0.18" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_open_image.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_phone_number.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_rest_pass.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_show.xml" value="0.1" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_show_need.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_show_notf.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_splash_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/activity_verify_phone_no.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/admin_list_users.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/donor_MainPage.xml" value="0.1" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/donor_mainpage.xml" value="0.1" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/donor_navigation_header.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/fragment_aboutus.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/fragment_admin_donaitions.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/fragment_admin_donors.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/fragment_admin_needs.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/fragment_admin_needy.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/fragment_donations.xml" value="0.19074074074074074" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/fragment_health.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/fragment_history.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/fragment_item.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/fragment_item_list.xml" value="0.19010416666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/fragment_medical.xml" value="0.1" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/fragment_needs.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/fragment_notifications.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/fragment_profile.xml" value="0.18" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/fragment_sport.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/listcategories.xml" value="0.1" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/listcneeds.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/listdonations.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/listhistory.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/listneeds.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/listnotifications.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/navigation_header.xml" value="0.1" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/layout/spinneritems.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/menu/admin_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/menu/bottom_nav.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/menu/donor_navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/menu/navigation_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.17407407407407408" />
+        <entry key="..\:/Users/osama/AndroidStudioProjects/ajrowalahajro/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.17407407407407408" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
